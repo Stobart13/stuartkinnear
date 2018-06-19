@@ -69,6 +69,10 @@ h3 a:hover {
     font-size: 30px;
 }
 
+#myNav .fas {
+    color: #fff;
+}
+
 .fa&:visited {
     color: inherit;
 }
