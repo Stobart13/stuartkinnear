@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Stuart Kinnear | Computing Graduate | Get in Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjord+One" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="stuartWebsite/images/favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+            <div class="overlay-content">
+                <a href="../about.html">About</a>
+                <a href="../examples.html">Examples of Work</a>
+                <a href="../contact.html">Contact Me</a>
+                <a href="../stuart-kinnearcv.pdf" target="_blank">Cirriculum Vitae</a>
+                <nav>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/stuart-kinnear-6855a1108/" target="_blank">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/DisgruntledTurk" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="http://www.instagram.com/stobart13" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/user/stuartyk18" target="_blank">
+                        <i class="fab fa-spotify" aria-hidden="true"></i>
+                    </a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/Stobart13" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="top">
+            <a class="home" href="../"><i class="fas fa-home"></i></a>
+            <span class="menu" onclick="openNav()"><i class="fas fa-bars"></i></span>
+        </div>
+    </nav>
+    <h1 style="margin-top:100px;">Get in contact</h1>
+    <p>If you want to get in touch with me, use the form below</p>
+    <form action="//formspree.io/stuart@stuartkinnear.co.uk" method="POST">
+        <label for="name">Name: </label>
+        <br>
+        <input type="text" name="name" placeholder="Enter Your Name">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <br>
+        <input type="email" name="_replyto" placeholder="me@example.com">
+        <br>
+        <br>
+        <label for="message">Message: </label>
+        <br>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="What do you want to say?"></textarea>
+        <br>
+        <br>
+        <button type="submit">Contact Me</button>
+        <button type="reset">Reset Form</button>
+    </form>
+    <script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+</body>
+
+</html>
